@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 650px;
+    
+}
+marquee{
+    color: red;
+    font-size: 27px;
+}
+.m-bar{
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+    /* background-color: rgb(180, 30, 60);
+    opacity: 50%; */
+}
+.m-bar-i{
+    height: 100%;
+    float: left;
+    width: 12%;
+    
+}
+.m-bar-i img{
+    height: 100%;
+    width: 60%;
+    /* padding: px; */
+    color: rosybrown;
+
+}
+.m-bar-d{
+    width: 90%;
+}
+.m-bar-d-n{
+    float: right;
+    margin: 12px;
+}
+.m-bar-d-n a{
+    width: 100%;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-right: 3px solid black;
+    color: black;
+    font-family: poppin;
+}
+.m-bar-d-n a:last-child{
+    border: none;
+}
+.m-bar-d-n a:hover{
+    background-color: rgb(101, 207, 101);
+    color: red;
+    border-radius: 12px;
+}
+.m-bar-d-n a:hover:last-child{
+    border-right: 3px solid black;
+}
+.ban{
+    background-color: rgb(95, 92, 92);
+    width: 100%;
+    height: 85%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.ban-cont{
+    color:whitesmoke;
+    width: 50%;
+    height: 80%;
+    margin: 0px 100px;
+    margin-top: 100px;
+    font-family: cursive;
+}
+.ban-cont h2{
+    font-size: 30px;
+    color: black;
+}
+.ban-cont p{
+    margin: 20px 0px 100px;
+    font-style: italic;
+}
+.ban-cont p span {
+    font-weight: bolder;
+    color: red;
+}
+
+.ban-cont a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.ban-cont a:hover {
+    background-color: darkgray;
+    color: darkgreen;
+    
+}
+
+.ban-i {
+    /* width: 40%; */
+    height: 80%;
+    margin: 80px 65px 5px 150px;
+}
+
+.ban-i img {
+    width: 100%;
+    height: 80%;
+    border-radius: 43%;
+}
